@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            // Revisão de aula.
             Console.WriteLine("Digite 1° nota do aluno(a)");
             double nota1 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Digite 2° nota do aluno(a)");
