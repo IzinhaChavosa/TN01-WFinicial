@@ -24,11 +24,16 @@ namespace WFinicial
             int num3 = int.Parse(txtNum3.Text);
 
             int maior = Math.Max(num1, num2);
-            maior = Math.Max(num3,maior);
+            maior = Math.Max(num3, maior);
 
             string msg = $"O maior número é: " + maior;
 
             MessageBox.Show(msg, "info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void txtNum3_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
