@@ -16,5 +16,19 @@ namespace WFinicial
         {
             InitializeComponent();
         }
+
+        private void btnMaior_Click(object sender, EventArgs e)
+        {
+            int num1 = int.Parse(txtNum1.Text);
+            int num2 = int.Parse(txtNum2.Text);
+            int num3 = int.Parse(txtNum3.Text);
+
+            int maior = Math.Max(num1, num2);
+            maior = Math.Max(num3,maior);
+
+            string msg = $"O maior número é: " + maior;
+
+            MessageBox.Show(msg, "info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }
