@@ -26,7 +26,7 @@ namespace WFinicial
             int maior = Math.Max(num1, num2);
             maior = Math.Max(num3, maior);
             int menor = Math.Min(num1, num2);
-            maior = Math.Min(num3, maior);
+            menor = Math.Min(num3, menor);
 
             string msg = $"O maior número é: " + maior;
             msg += $"\nO menor número é: " + menor;
