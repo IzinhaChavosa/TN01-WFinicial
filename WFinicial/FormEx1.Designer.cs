@@ -1,6 +1,6 @@
 ﻿namespace WFinicial
 {
-    partial class Form1
+    partial class FormEx1
     {
         /// <summary>
         ///  Required designer variable.
@@ -77,7 +77,7 @@
             txtnota2.Size = new Size(100, 23);
             txtnota2.TabIndex = 4;
             // 
-            // Form1
+            // FormEx1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -88,7 +88,7 @@
             Controls.Add(btnCalcular);
             Controls.Add(txtnota1);
             Controls.Add(lblNota1);
-            Name = "Form1";
+            Name = "FormEx1";
             Text = "Calcular Media das notas";
             ResumeLayout(false);
             PerformLayout();

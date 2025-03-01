@@ -8,12 +8,4 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Remove="FormEX1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Include="FormEX1" />
-  </ItemGroup>
-
 </Project>
